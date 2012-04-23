@@ -3,10 +3,10 @@ package org.vaadin.addons.javaee.ui;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
+import org.vaadin.addons.javaee.fields.StringToCalenderConverter;
+import org.vaadin.addons.javaee.jpa.EntityContainer;
+import org.vaadin.addons.javaee.table.BasicEntityTable;
 
-import com.optible.vaadin.utils.fields.StringToCalenderConverter;
-import com.optible.vaadin.utils.jpa.EntityContainer;
-import com.optible.vaadin.utils.table.BasicEntityTable;
 
 public class CustomerListTable extends BasicEntityTable<Customer> {
 

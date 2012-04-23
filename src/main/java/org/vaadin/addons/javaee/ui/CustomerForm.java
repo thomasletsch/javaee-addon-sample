@@ -5,9 +5,9 @@ import java.util.Arrays;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
+import org.vaadin.addons.javaee.form.BasicEntityForm;
+import org.vaadin.addons.javaee.jpa.EntityContainer;
 
-import com.optible.vaadin.utils.form.BasicEntityForm;
-import com.optible.vaadin.utils.jpa.EntityContainer;
 
 public class CustomerForm extends BasicEntityForm<Customer> {
 

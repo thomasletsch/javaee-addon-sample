@@ -4,11 +4,11 @@ import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
+import org.vaadin.addons.javaee.events.NavigationEvent;
+import org.vaadin.addons.javaee.form.BasicSearchForm;
+import org.vaadin.addons.javaee.page.BasicSearchAndListPage;
+import org.vaadin.addons.javaee.table.BasicEntityTable;
 
-import com.optible.vaadin.utils.events.NavigationEvent;
-import com.optible.vaadin.utils.form.BasicSearchForm;
-import com.optible.vaadin.utils.page.BasicSearchAndListPage;
-import com.optible.vaadin.utils.table.BasicEntityTable;
 import com.vaadin.data.Property.ValueChangeEvent;
 import com.vaadin.data.Property.ValueChangeListener;
 

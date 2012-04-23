@@ -1,6 +1,6 @@
 package org.vaadin.addons.javaee;
 
-import com.optible.vaadin.utils.i18n.ResourceBundleTranslations;
+import org.vaadin.addons.javaee.i18n.ResourceBundleTranslations;
 
 public class SamplePropertiesTranslations extends ResourceBundleTranslations {
 

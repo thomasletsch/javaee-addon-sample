@@ -1,8 +1,8 @@
 package org.vaadin.addons.javaee.ui;
 
 import org.vaadin.addons.javaee.domain.Customer;
+import org.vaadin.addons.javaee.jpa.EntityContainer;
 
-import com.optible.vaadin.utils.jpa.EntityContainer;
 
 public class CustomerContainer extends EntityContainer<Customer> {
 

@@ -3,9 +3,9 @@ package org.vaadin.addons.javaee.ui;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
+import org.vaadin.addons.javaee.form.BasicEntityForm;
+import org.vaadin.addons.javaee.page.BasicEditPage;
 
-import com.optible.vaadin.utils.form.BasicEntityForm;
-import com.optible.vaadin.utils.page.BasicEditPage;
 
 public class CustomerNewPage extends BasicEditPage<Customer> {
 
