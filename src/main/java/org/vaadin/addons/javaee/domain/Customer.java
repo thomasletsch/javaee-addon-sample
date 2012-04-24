@@ -12,7 +12,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.Size;
 
-import org.javaeeutils.jpa.AuditableEntity;
+import com.googlecode.javaeeutils.jpa.AuditableEntity;
 
 @Entity
 @Cacheable

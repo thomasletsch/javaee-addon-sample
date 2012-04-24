@@ -5,8 +5,8 @@ import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.page.Portal;
-import org.vaadin.addons.javaee.ui.CustomerNewPage;
 import org.vaadin.addons.javaee.ui.CustomerEditPage;
+import org.vaadin.addons.javaee.ui.CustomerNewPage;
 import org.vaadin.addons.javaee.ui.CustomerSearchPage;
 
 
