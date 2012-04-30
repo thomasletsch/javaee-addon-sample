@@ -15,17 +15,23 @@
  *******************************************************************************/
 package org.vaadin.addons.javaee;
 
+import static org.vaadin.addons.javaee.TranslationKeys.*;
+
 import javax.enterprise.context.SessionScoped;
+import javax.enterprise.event.Observes;
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.page.Portal;
+import org.vaadin.addons.javaee.ui.CustomerChangedEvent;
 import org.vaadin.addons.javaee.ui.CustomerEditPage;
 import org.vaadin.addons.javaee.ui.CustomerNewPage;
 import org.vaadin.addons.javaee.ui.CustomerSearchPage;
 
+import com.vaadin.annotations.Theme;
 
 @SessionScoped
+@Theme("sample")
 public class SamplePortal extends Portal {
 
     @Inject
@@ -44,6 +50,10 @@ public class SamplePortal extends Portal {
         menu.addMenu(customer, CustomerSearchPage.PAGE, customerSearchPage);
         menu.addMenu(customer, CustomerNewPage.PAGE, customerNewPage);
         menu.addMenu(customer, CustomerEditPage.PAGE, customerOverviewPage);
+    }
+
+    public void adjustHeader(@Observes CustomerChangedEvent event) {
+        header.setTitle(translationService.get(TITLE_PORTAL) + " - " + event.getCustomer().getFullName());
     }
 
 }

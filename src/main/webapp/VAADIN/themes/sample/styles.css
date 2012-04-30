@@ -1,0 +1,6 @@
+@import url(../reindeer/styles.css);
+
+.v-tree-node-caption-disabled {
+        color: graytext;
+        cursor: default;
+}
