@@ -5,9 +5,9 @@
         <jta-data-source>java:/sampleDs</jta-data-source>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
-        <class>org.javaeeutils.jpa.PersistentEntity</class>
-        <class>org.javaeeutils.jpa.EntityWithNaturalKey</class>
-        <class>org.javaeeutils.jpa.AuditableEntity</class>
+        <class>com.googlecode.javaeeutils.jpa.PersistentEntity</class>
+        <class>com.googlecode.javaeeutils.jpa.EntityWithNaturalKey</class>
+        <class>com.googlecode.javaeeutils.jpa.AuditableEntity</class>
         <class>org.vaadin.addons.javaee.domain.Customer</class>
         <class>org.vaadin.addons.javaee.domain.Address</class>
         <properties>
