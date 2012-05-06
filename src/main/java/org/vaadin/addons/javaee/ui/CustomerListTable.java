@@ -18,7 +18,7 @@ package org.vaadin.addons.javaee.ui;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
-import org.vaadin.addons.javaee.fields.StringToCalenderConverter;
+import org.vaadin.addons.javaee.fields.converter.StringToCalenderConverter;
 import org.vaadin.addons.javaee.jpa.EntityContainer;
 import org.vaadin.addons.javaee.table.BasicEntityTable;
 
