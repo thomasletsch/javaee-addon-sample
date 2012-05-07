@@ -1,6 +1,37 @@
 @import url(../reindeer/styles.css);
 
 .v-tree-node-caption-disabled {
-        color: graytext;
-        cursor: default;
+	color: graytext;
+	cursor: default;
+}
+
+.border {
+	border: 1px solid #dedede;
+}
+
+.smallmargin {
+	margin: 5px;
+}
+
+.smallspacing {
+	padding: 5px;
+}
+
+.rightalign {
+	text-align: right;
+}
+/* Lay the options horizontally */
+.v-select-optiongroup-horizontal .v-select-option {
+    display: inline-block;
+}
+
+/* Avoid wrapping if the layout is too tight */
+.v-select-optiongroup-horizontal {
+    white-space: nowrap;
+}
+
+/* Some extra spacing is needed */
+.v-select-optiongroup-horizontal
+  .v-select-option.v-radiobutton {
+    padding-right: 1em;
 }
