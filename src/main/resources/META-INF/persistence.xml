@@ -3,13 +3,13 @@
     <persistence-unit name="sample" transaction-type="JTA">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <jta-data-source>java:/sampleDs</jta-data-source>
-        <exclude-unlisted-classes>false</exclude-unlisted-classes>
-        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
         <class>com.googlecode.javaeeutils.jpa.PersistentEntity</class>
         <class>com.googlecode.javaeeutils.jpa.EntityWithNaturalKey</class>
         <class>com.googlecode.javaeeutils.jpa.AuditableEntity</class>
         <class>org.vaadin.addons.javaee.domain.Customer</class>
         <class>org.vaadin.addons.javaee.domain.Address</class>
+        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
         <properties>
             <property name="hibernate.connection.driver_class" value="org.h2.Driver" />
             <property name="hibernate.ejb.naming_strategy" value="org.hibernate.cfg.DefaultComponentSafeNamingStrategy" />

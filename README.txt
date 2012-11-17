@@ -5,4 +5,6 @@ Just deploy the sample-ds.xml file along with the javaee-addon-sample.war.
 
 Tested and used with JBoss 7.1.
 
-The JavaEE Addon is compatible to Vaadin 7! No stable version!
+Can be accessed on the JBoss via http://localhost:8080/javaee-addon-sample/vaadin (replace your server name and port)
+
+The JavaEE Addon is compatible to Vaadin 7 Beta 9! No stable version!
