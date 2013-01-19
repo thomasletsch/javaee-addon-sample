@@ -15,7 +15,7 @@
  *******************************************************************************/
 package org.vaadin.addons.javaee;
 
-import static org.vaadin.addons.javaee.TranslationKeys.*;
+import static org.vaadin.addons.javaee.TranslationKeys.TITLE_PORTAL;
 
 import javax.enterprise.context.SessionScoped;
 import javax.enterprise.event.Observes;
@@ -33,6 +33,8 @@ import com.vaadin.annotations.Theme;
 @SessionScoped
 @Theme("sample")
 public class SamplePortal extends Portal {
+
+    private static final long serialVersionUID = 1L;
 
     @Inject
     private Instance<CustomerSearchPage> customerSearchPage;
