@@ -23,8 +23,9 @@ import org.vaadin.addons.javaee.domain.Customer;
 import org.vaadin.addons.javaee.form.BasicSearchForm;
 import org.vaadin.addons.javaee.jpa.EntityContainer;
 
-
 public class CustomerSearchForm extends BasicSearchForm<Customer> {
+
+    private static final long serialVersionUID = 1L;
 
     @Inject
     private CustomerContainer customerContainer;

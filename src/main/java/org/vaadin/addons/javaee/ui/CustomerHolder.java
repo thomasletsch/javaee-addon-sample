@@ -15,6 +15,8 @@ import com.vaadin.data.util.filter.Compare.Equal;
 @SessionScoped
 public class CustomerHolder implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+
     private Customer customer;
 
     @Inject

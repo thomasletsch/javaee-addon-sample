@@ -19,9 +19,12 @@ import org.vaadin.addons.javaee.i18n.ResourceBundleTranslations;
 
 public class SamplePropertiesTranslations extends ResourceBundleTranslations {
 
+    private static final long serialVersionUID = 1L;
+
     private static final String SAMPLE_BUNDLE_NAME = "Sample";
 
-    public SamplePropertiesTranslations() {
-        super(SAMPLE_BUNDLE_NAME);
+    @Override
+    protected String getBundleName() {
+        return SAMPLE_BUNDLE_NAME;
     }
 }

@@ -22,8 +22,9 @@ import org.vaadin.addons.javaee.fields.converter.StringToCalenderConverter;
 import org.vaadin.addons.javaee.jpa.EntityContainer;
 import org.vaadin.addons.javaee.table.BasicEntityTable;
 
-
 public class CustomerListTable extends BasicEntityTable<Customer> {
+
+    private static final long serialVersionUID = 1L;
 
     @Inject
     private CustomerContainer customerContainer;

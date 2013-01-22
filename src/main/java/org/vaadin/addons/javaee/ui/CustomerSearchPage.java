@@ -22,12 +22,15 @@ import org.vaadin.addons.javaee.domain.Customer;
 import org.vaadin.addons.javaee.events.NavigationEvent;
 import org.vaadin.addons.javaee.form.BasicSearchForm;
 import org.vaadin.addons.javaee.page.BasicSearchAndListPage;
+import org.vaadin.addons.javaee.page.ContentView;
 import org.vaadin.addons.javaee.table.BasicEntityTable;
 
 import com.vaadin.data.Property.ValueChangeEvent;
 import com.vaadin.data.Property.ValueChangeListener;
 
-public class CustomerSearchPage extends BasicSearchAndListPage<Customer> {
+public class CustomerSearchPage extends BasicSearchAndListPage<Customer> implements ContentView {
+
+    private static final long serialVersionUID = 1L;
 
     public static final String PAGE = "CustomerSearch";
 
@@ -54,7 +57,9 @@ public class CustomerSearchPage extends BasicSearchAndListPage<Customer> {
 
     @PostConstruct
     protected void bindCustomerChanged() {
-        customerListTable.addListener(new ValueChangeListener() {
+        customerListTable.addValueChangeListener(new ValueChangeListener() {
+
+            private static final long serialVersionUID = 1L;
 
             @Override
             public void valueChange(ValueChangeEvent event) {

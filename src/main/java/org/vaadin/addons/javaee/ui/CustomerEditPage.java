@@ -20,9 +20,11 @@ import javax.inject.Inject;
 import org.vaadin.addons.javaee.domain.Customer;
 import org.vaadin.addons.javaee.form.BasicEntityForm;
 import org.vaadin.addons.javaee.page.BasicEditPage;
+import org.vaadin.addons.javaee.page.ContentView;
 
+public class CustomerEditPage extends BasicEditPage<Customer> implements ContentView {
 
-public class CustomerEditPage extends BasicEditPage<Customer> {
+    private static final long serialVersionUID = 1L;
 
     public static final String PAGE = "CustomerEdit";
 
