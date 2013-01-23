@@ -30,6 +30,7 @@
 			<groupId>org.vaadin.addons</groupId>
 			<artifactId>javaee-addon</artifactId>
 			<version>${javaee-addon.version}</version>
+			<type>ejb</type>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
