@@ -6,8 +6,8 @@ import javax.enterprise.context.SessionScoped;
 import javax.enterprise.event.Observes;
 import javax.inject.Inject;
 
-import org.vaadin.addons.javaee.TranslationKeys;
 import org.vaadin.addons.javaee.domain.Customer;
+import org.vaadin.addons.javaee.i18n.TranslationKeys;
 import org.vaadin.addons.javaee.i18n.TranslationService;
 import org.vaadin.addons.javaee.jpa.EntityItem;
 import org.vaadin.addons.javaee.page.Header;

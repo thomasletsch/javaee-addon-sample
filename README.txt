@@ -7,4 +7,4 @@ Tested and used with JBoss 7.1.
 
 Can be accessed on the JBoss via http://localhost:8080/javaee-addon-sample/vaadin (replace your server name and port)
 
-The JavaEE Addon is compatible to Vaadin 7 Beta 9! No stable version!
+The JavaEE Addon is compatible to Vaadin 7 rc 2! No stable version!
