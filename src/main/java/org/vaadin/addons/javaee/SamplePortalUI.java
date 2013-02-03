@@ -8,7 +8,6 @@ import javax.servlet.annotation.WebInitParam;
 import javax.servlet.annotation.WebServlet;
 
 import org.vaadin.addons.javaee.events.NavigationEvent;
-import org.vaadin.addons.javaee.page.PortalUI;
 import org.vaadin.addons.javaee.ui.CustomerEditPage;
 import org.vaadin.addons.javaee.ui.CustomerNewPage;
 import org.vaadin.addons.javaee.ui.CustomerSearchPage;
