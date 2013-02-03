@@ -9,8 +9,8 @@ import javax.servlet.annotation.WebServlet;
 
 import org.vaadin.addons.javaee.events.NavigationEvent;
 import org.vaadin.addons.javaee.i18n.SelectedLocale;
+import org.vaadin.addons.javaee.navigation.SideMenu;
 import org.vaadin.addons.javaee.page.PortalViewImpl;
-import org.vaadin.addons.javaee.page.SideMenu;
 import org.vaadin.addons.javaee.ui.CustomerEditPage;
 import org.vaadin.addons.javaee.ui.CustomerNewPage;
 import org.vaadin.addons.javaee.ui.CustomerSearchPage;
