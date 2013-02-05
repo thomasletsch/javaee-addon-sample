@@ -10,7 +10,7 @@ import org.vaadin.addons.javaee.domain.Customer;
 import org.vaadin.addons.javaee.i18n.TranslationKeys;
 import org.vaadin.addons.javaee.i18n.TranslationService;
 import org.vaadin.addons.javaee.jpa.EntityItem;
-import org.vaadin.addons.javaee.page.Header;
+import org.vaadin.addons.javaee.portal.Header;
 
 import com.vaadin.data.Container.Filter;
 import com.vaadin.data.util.filter.Compare.Equal;

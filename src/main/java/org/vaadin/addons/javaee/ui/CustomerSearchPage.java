@@ -34,8 +34,6 @@ public class CustomerSearchPage extends BasicSearchAndListPage<Customer> impleme
 
     public static final String PAGE = "CustomerSearch";
 
-    public static final String ENTITY = "Customer";
-
     @Inject
     CustomerListTable customerListTable;
 
@@ -52,7 +50,7 @@ public class CustomerSearchPage extends BasicSearchAndListPage<Customer> impleme
     javax.enterprise.event.Event<CustomerChangedEvent> customerChanged;
 
     public CustomerSearchPage() {
-        super(PAGE, ENTITY);
+        super(PAGE);
     }
 
     @PostConstruct
