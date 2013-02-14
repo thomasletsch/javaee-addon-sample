@@ -23,7 +23,7 @@ public class CustomerContainer extends EntityContainer<Customer> {
     private static final long serialVersionUID = 1L;
 
     public CustomerContainer() {
-        super(Customer.class, false);
+        super(Customer.class);
     }
 
 }
