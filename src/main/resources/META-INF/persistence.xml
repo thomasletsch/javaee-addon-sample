@@ -18,6 +18,7 @@
             <property name="hibernate.archive.autodetection" value="class" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="false" />
+            <!-- It is very important to use a second level cache for the EntityContainer -->
             <property name="hibernate.cache.use_second_level_cache" value="true" />
             <property name="hibernate.cache.use_query_cache" value="true" />
         </properties>
