@@ -16,9 +16,9 @@
 package org.vaadin.addons.javaee.ui;
 
 import org.vaadin.addons.javaee.domain.Customer;
-import org.vaadin.addons.javaee.jpa.EntityContainer;
+import org.vaadin.addons.javaee.jpa.JPAEntityContainer;
 
-public class CustomerContainer extends EntityContainer<Customer> {
+public class CustomerContainer extends JPAEntityContainer<Customer> {
 
     private static final long serialVersionUID = 1L;
 
