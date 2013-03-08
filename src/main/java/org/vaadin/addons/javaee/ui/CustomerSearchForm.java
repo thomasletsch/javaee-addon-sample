@@ -19,9 +19,9 @@ import java.util.Arrays;
 
 import javax.inject.Inject;
 
+import org.vaadin.addons.javaee.container.EntityContainer;
 import org.vaadin.addons.javaee.domain.Customer;
 import org.vaadin.addons.javaee.form.BasicSearchForm;
-import org.vaadin.addons.javaee.jpa.EntityContainer;
 
 public class CustomerSearchForm extends BasicSearchForm<Customer> {
 
