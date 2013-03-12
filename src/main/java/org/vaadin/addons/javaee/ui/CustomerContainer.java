@@ -15,8 +15,8 @@
  *******************************************************************************/
 package org.vaadin.addons.javaee.ui;
 
+import org.vaadin.addons.javaee.container.jpa.JPAEntityContainer;
 import org.vaadin.addons.javaee.domain.Customer;
-import org.vaadin.addons.javaee.jpa.JPAEntityContainer;
 
 public class CustomerContainer extends JPAEntityContainer<Customer> {
 
