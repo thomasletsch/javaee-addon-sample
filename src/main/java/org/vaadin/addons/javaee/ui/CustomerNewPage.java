@@ -20,7 +20,7 @@ import java.util.Map;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
-import org.vaadin.addons.javaee.form.BasicEntityForm;
+import org.vaadin.addons.javaee.form.BasicEditForm;
 import org.vaadin.addons.javaee.page.BasicEditPage;
 import org.vaadin.addons.javaee.page.ContentView;
 
@@ -43,7 +43,7 @@ public class CustomerNewPage extends BasicEditPage<Customer> implements ContentV
     }
 
     @Override
-    protected BasicEntityForm<Customer> getForm() {
+    protected BasicEditForm<Customer> getForm() {
         return form;
     }
 

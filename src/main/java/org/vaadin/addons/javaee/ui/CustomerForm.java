@@ -21,9 +21,9 @@ import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.container.EntityContainer;
 import org.vaadin.addons.javaee.domain.Customer;
-import org.vaadin.addons.javaee.form.BasicEntityForm;
+import org.vaadin.addons.javaee.form.BasicEditForm;
 
-public class CustomerForm extends BasicEntityForm<Customer> {
+public class CustomerForm extends BasicEditForm<Customer> {
 
     private static final long serialVersionUID = 1L;
 
