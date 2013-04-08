@@ -19,8 +19,8 @@ import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.vaadin.addons.javaee.domain.Customer;
-import org.vaadin.addons.javaee.events.NavigationEvent;
 import org.vaadin.addons.javaee.form.BasicSearchForm;
+import org.vaadin.addons.javaee.navigation.NavigationEvent;
 import org.vaadin.addons.javaee.page.BasicSearchAndListPage;
 import org.vaadin.addons.javaee.page.ContentView;
 import org.vaadin.addons.javaee.table.BasicEntityTable;

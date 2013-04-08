@@ -4,27 +4,23 @@ import java.util.Locale;
 
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
-import javax.servlet.annotation.WebInitParam;
-import javax.servlet.annotation.WebServlet;
 
-import org.vaadin.addons.javaee.events.NavigationEvent;
+import org.vaadin.addons.javaee.navigation.NavigationEvent;
+import org.vaadin.addons.javaee.navigation.SideMenu;
 import org.vaadin.addons.javaee.ui.CustomerEditPage;
 import org.vaadin.addons.javaee.ui.CustomerNewPage;
 import org.vaadin.addons.javaee.ui.CustomerSearchPage;
 
 import com.vaadin.annotations.Theme;
-import com.vaadin.server.Constants;
-import com.vaadin.server.VaadinServlet;
-import com.vaadin.server.VaadinSession;
+import com.vaadin.cdi.CDIUI;
 
 @SuppressWarnings("serial")
 @Theme(Props.THEME_NAME)
+@CDIUI
 public class SamplePortalUI extends PortalUI {
 
-    @WebServlet(urlPatterns = "/*", initParams = { @WebInitParam(name = VaadinSession.UI_PARAMETER, value = Props.UI_NAME),
-            @WebInitParam(name = Constants.SERVLET_PARAMETER_UI_PROVIDER, value = Props.UI_PROVIDER_NAME) })
-    public static class ApplicationServlet extends VaadinServlet {
-    }
+    @Inject
+    protected SideMenu menu;
 
     @Inject
     private Instance<CustomerSearchPage> customerSearchPage;

@@ -51,4 +51,5 @@ public class CustomerEditPage extends BasicEditPage<Customer> implements Content
     public void onShow(String comingFrom, Map<String, Object> parameters) {
         form.edit(customerHolder.getItem());
     }
+
 }
